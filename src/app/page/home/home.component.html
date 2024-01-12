@@ -4,8 +4,8 @@
         <h1>Journée &nbsp;<span>Porte Ouverte</span></h1>
         <p id="subtitle">Explorer l'Avenir à l'IUT Gustave Eiffel : Innovation, Formation et Réussite à Meaux. Rejoignez-nous pour Découvrir votre Potentiel !</p>
         <div id="cta-visit">
-                <p>Clic pour visiter</p>
-                <a href="">Visite Virtuel</a>
+                <p>Click pour visiter</p>
+                <a routerLink="/visite">Visite Virtuelle</a>
             </div>
         </div>
         <div class="right">
@@ -67,7 +67,7 @@
                 <h3>BUT MMI</h3>
                 <p>Explorez la création digitale avec MMI. Conception web, communication visuelle, et plus encore ! Façonnez l'avenir du numérique.</p>
             </div>
-            <a href="" class="link-card">Voir document</a>
+            <a href="../../../assets/info/Documents_JPO.pdf" target="_blank"  class="link-card">Voir document</a>
         </div>
         <div class="right">
             <img [src]="main_character" alt="" srcset="">
@@ -151,7 +151,7 @@
             <img [src]="explorer_character" alt="" srcset="">
             <h3>Visite Virtuel</h3>
             <p>Particpe a la visite virtuel pour découvrir en avant première ce a quoi ressemble l'IUT</p>
-            <a href="">visiter</a>
+            <a routerLink="/game">visiter</a>
         </div>
         <div class="card">
             <img [src]="robot_character" alt="" srcset="">
@@ -254,7 +254,7 @@
             <h2>Pret pour le Quizz</h2>
             <p>Paricipe au Quizz pour nous aider</p>
         </div>
-        <a href="">Commencer le quizz</a>
+        <a routerLink="/quizz">Commencer le quizz</a>
     </div>
     <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b1" >
     <img [src]="blob" alt="" srcset="" class="cta-blob" id="cta-b2">

@@ -16,7 +16,7 @@
 
 
 #portfolio .container #wrapper-portfolio {
-   border-radius: 10px;
+   border-radius: 5px;
    /* height: 170px; */
    padding-top: 100px;
    
@@ -51,6 +51,24 @@
 
 #portfolio .container #wrapper-portfolio #pc div:nth-child(1){
     background-image: url('../../../assets/images/portfolio1.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio .container #wrapper-portfolio #pc2 div:nth-child(1){
+    background-image: url('../../../assets/images/portfolio2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio .container #wrapper-portfolio #pc3 div:nth-child(1){
+    background-image: url('../../../assets/images/portfolio3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#portfolio .container #wrapper-portfolio #pc4 div:nth-child(1){
+    background-image: url('../../../assets/images/portfolio4.png');
     background-repeat: no-repeat;
     background-size: cover;
 }

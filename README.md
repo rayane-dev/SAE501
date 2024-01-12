@@ -13,4 +13,6 @@ ng serve
 qui sert à lancer en localhost le projet.
 
 Pour la version GitHub, nous avons une impossibilité à uploader la modélisation 3D due à son volume. Elle sera donc disponible sur l'hébergement en ligne.
+
+Voici le lien du site en ligne : https://rayane.eu/home
   
